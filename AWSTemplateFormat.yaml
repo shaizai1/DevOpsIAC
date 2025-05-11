@@ -1,6 +1,6 @@
-template-file-path: template.yaml
+template-file-path: AWSTemplateFormat.yaml
 parameters:
-  CodePipelineName: DevOpsSummative
+  CodePipelineName: SimpleMavenBuildService
   ConnectionArn: >-
     arn:aws:codeconnections:eu-west-2:276598899146:connection/bb7ee7d3-a22f-483c-a9b9-d30f247bce29
   CICodeBuildSpec: |-
